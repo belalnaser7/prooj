@@ -1,0 +1,135 @@
+.log video{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+
+}
+
+.log {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  background-size: cover;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-family: fangsong;
+  font-weight: 900;
+  color: aliceblue;
+  letter-spacing: -1px;
+
+}
+.wisard {
+  display: flex;
+  justify-content: center;
+}
+.wisard h1 {
+  font-size: 80px;
+}
+.wisard h1 em {
+  font-size: 150px;
+}
+
+.login-feild {
+  max-width: 350rem;
+  border-radius: 0 5rem;
+  text-align: center;
+  position: absolute;
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+}
+
+
+
+.email-feild input,
+.pass-feild input {
+  width: 80%;
+  background-color: rgba(174, 133, 209, 0.281);
+  border: 2px solid rgb(89, 64, 113);
+  border-radius: 2rem;
+  font-size: 1.6rem;
+  color: white;
+  position: relative;
+  outline: none;
+  padding: 0 10%;
+}
+
+.email-feild,
+.pass-feild {
+  padding: 2% 0;
+}
+
+.icon-email,.icon-pass {
+  position: absolute;
+  margin-left: 2.5rem;
+  margin-top: .5rem;
+}
+
+.email-feild input:focus,
+.pass-feild input:focus {
+  background-color: rgb(68, 44, 91);
+  border: 3px solid rgb(173, 133, 209);
+}
+
+input::placeholder {
+  color: #110815;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1rem;
+}
+.after_pass {
+  display: flex;
+  padding: 5%;
+  justify-content:space-between;
+  /* gap: 5rem; */
+}
+
+
+.login_button-feild p {
+  font-style: normal;
+}
+
+.login_button-feild p span {
+  color: rgb(173, 133, 209);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.login_button-feild p span:hover {
+  font-style: italic;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .wisard h1 {
+    font-size: 40px;
+  }
+  .wisard h1 em {
+    font-size: 100px;
+  }
+  .login-feild {
+    margin: auto;
+    max-width: 95%;
+  }
+  .ICON {
+    margin: 0 20px 0 30px;
+    font-size: 3rem;
+    color: #449bd9;
+  }
+}
+.after_pass a {
+  color: #d39a33;
+  text-decoration: none;
+}
+.after_pass a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
+}
